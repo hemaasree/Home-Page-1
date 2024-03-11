@@ -1,0 +1,104 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins", sans-serif;
+}
+nav{
+ 
+  height:100px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+ 
+}
+.logo{
+  font-weight:normal;
+  font-size: 35px;
+  font-style: italic;
+  padding:2px;
+  color: rgb(124, 247, 115);
+  margin-top:40px;
+  position: relative;
+
+}
+
+.navibar {
+color:black
+}
+.navibar ul li{
+ 
+  padding:40px;
+  margin-top:40px;
+  position: relative;
+
+}
+
+
+.nav-link1{
+  color: white;
+  background-color:rgb(46, 243, 105);
+  padding:15px 32px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+
+}
+
+
+
+.feature_box{
+  margin-top:70px;
+  padding:50px;
+}
+.feature_box h4{
+  letter-spacing:10px;
+  margin-bottom:15px;
+
+}
+.feature_box h1{
+  letter-spacing:6px;
+  margin-bottom:10px;
+  font-size:100px;
+
+
+}
+.feature_box p{
+ 
+  font-weight:bold;
+  font-size: 1em;
+  margin-bottom: 15px;
+ 
+}
+.btn1{
+  border: none;
+  color:white ;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:rgb(75, 238, 121) ;
+  border-radius:10px;
+
+}
+.circle-design{
+  margin-top: 70px;
+  padding-right:10px;
+  float:right;
+  position: relative;
+}
+.circle{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100% ;
+  background:rgb(144, 245, 151);
+  clip-path:circle(670px at right ) ;
+   
+}
